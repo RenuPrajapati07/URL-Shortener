@@ -1,0 +1,16 @@
+node_modules
+// Project --> Build a Url Shortener using node.js,express and mongodb
+//link of video --> https://www.youtube.com/watch?v=SLpUKAGnm-g&t=1313s
+
+
+//Explanation for sr-only (screen reader only) it is replaced with visually-hidden-focusable 
+--> basically it hide the label in gui. 
+
+For visually hidden interactive controls, such as traditional “skip” links, use the .
+visually-hidden-focusable class. This will ensure that the control becomes visible once 
+focused (for sighted keyboard users). Watch out, compared to the equivalent .sr-only and 
+.sr-only-focusable classes in past versions, Bootstrap 5’s .visually-hidden-focusable is a 
+standalone class, and must not be used in combination with the .visually-hidden class.
+
+Copy
+<a class="visually-hidden-focusable" href="#content">Skip to main content</a>
